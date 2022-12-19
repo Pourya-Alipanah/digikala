@@ -15,6 +15,7 @@ nav > div.mainbar {
   margin: 0px auto 0px auto;
   box-sizing: border-box;
   padding: 17px 16px;
+  position: relative;
 }
 nav > div.mainbar > img {
   display: inline-block;
@@ -64,6 +65,175 @@ nav > div.mainbar > div.input-group > .toggle > span{
   font-size: 18px;
 }
 
+/*                  User Account                              */
+
+nav > div.mainbar  input[type="radio"]{
+  display: none;
+}
+nav > div.mainbar > div.useraccount{
+  position: absolute;
+  width: 125px;
+  height: 44px;
+  left: 15px;
+  top: 18px;
+}
+nav > div.mainbar > div.useraccount > label > div.useracc{
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+  cursor: pointer;
+}
+nav > div.mainbar > div.useraccount > label > div.useracc > span.fa-user{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  right: 4px;
+  top: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424750;
+}
+nav > div.mainbar > div.useraccount > label > div.useracc > span.fa-caret-down{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  position: absolute;
+  top: 11px;
+  left: 0;
+  color: #424750;
+}
+nav > div.mainbar > div.useraccount > label[for="closes"]{
+  display: none;
+}
+nav > div.mainbar > div.useraccount > input[id="open"]:checked ~ label[for="open"]{
+  display: none;
+}
+nav > div.mainbar > div.useraccount > input[id="open"]:checked ~ label[for="closes"] {
+  display: block;
+}
+nav > div.mainbar > div.useraccount > input[id="open"]:checked ~ label[for="closes"] > div.useracc {
+  background-color: #FDEBED;
+}
+nav > div.mainbar > div.useraccount > input[id="open"]:checked ~ label[for="closes"] ~ div.acc{
+  display: block;
+}
+nav > div.mainbar > div.useraccount > div.acc {
+  width: 256px;
+  height: 366.55px;
+  position: absolute;
+  left: calc(50% + 3px);
+  top: 100%;
+  box-shadow: 0 1px 1px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.3);
+  border-radius: 8px;
+  background-color: var(--white);
+  z-index: 3;
+  display: none;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul{
+  width: inherit;
+  list-style: none;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li{
+  width: inherit;
+  height: 49.05px;
+  line-height: 49.05px;
+  color: #424750;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 16px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  transition: 300ms;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li > div:not(.first){
+  display: inline-block;
+  width: 80%;
+  height: inherit;
+  border-bottom: 1px solid var(--white2);
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li > img{
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 8px;
+  right: 3px;
+  margin-left: 15px;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li > span.num{
+  position: absolute;
+  left: 47px;
+  top: 0;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li > span.low{
+  position: absolute;
+  left: 16px;
+  top: 0;
+  color: var(--icon-grey);
+  font-size: 11px;
+  font-weight: 500;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li:hover{
+  background-color: var(--white2);
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li:first-of-type{
+  height: 65.05px;
+  border-radius: 8px 8px 0 0;
+  padding: unset;
+  box-sizing: unset;
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li:first-of-type > div.first{
+  color: #424750;
+  font-size: 15px;
+  width: 90%;
+  height: inherit;
+  line-height: 65.05px;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px solid var(--border-color);
+}
+nav > div.mainbar > div.useraccount > div.acc > ul > li:first-of-type > div > img{
+  width: 31px;
+  height: 31px;
+  margin-left: 4px;
+  position: relative;
+  top: 12px;
+  right: 2px;
+}
+nav > div.mainbar > div.useraccount > div.cart{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -10px;
+  top: 12px;
+  cursor: pointer;
+}
+nav > div.mainbar > div.useraccount > div.cart > span{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #424750;
+}
+nav > div.mainbar > div.useraccount > div.cart::before{
+  content: " ";
+  display: block;
+  background-color: var(--border-color);
+  width: 1px;
+  height: 24px;
+  position: absolute;
+  top: 9px;
+  left: 63px;
+  transform: translateY(-50%);
+}
 /* Manu Bar  */
 
 nav > div.menubar {
