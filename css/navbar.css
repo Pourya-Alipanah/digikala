@@ -1,0 +1,270 @@
+  /* Top of navbar */
+nav{
+  background-color: var(--white);
+  position: sticky;
+  top: 54.25px;
+  left: 0;
+  z-index: 3;
+}
+nav > div.mainbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 68px;
+  text-align: right;
+  margin: 0px auto 0px auto;
+  box-sizing: border-box;
+  padding: 17px 16px;
+}
+nav > div.mainbar > img {
+  display: inline-block;
+  margin: 0 0 0 20px ;
+}
+nav > div.mainbar > div.input-group{
+  width: 600px;
+  height: 44px;
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+}
+nav > div.mainbar > div.input-group input{
+  padding: 0 50px;
+  box-sizing: border-box;
+  width: 300px;
+  height: inherit;
+  background-color: var(--white2);
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  color: #252525;
+  transition: 500ms;
+  font-size: 15px;
+}
+nav > div.mainbar > div.input-group input::placeholder{
+  font-size: 12px;
+  font-family: IranyekanM;
+  color: var(--placeholder-color);
+}
+nav > div.mainbar > div.input-group input:focus {
+  width: 600px;
+  outline: unset;
+}
+nav > div.mainbar > div.input-group input:focus ~ span.toggle > span {
+  color: #252525;
+}
+nav > div.mainbar > div.input-group > .toggle{
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  cursor: pointer;
+  z-index: 9;
+}
+nav > div.mainbar > div.input-group > .toggle > span{
+  transition: 400ms;
+  color: var(--icon-grey);
+  font-size: 18px;
+}
+
+/* Manu Bar  */
+
+nav > div.menubar {
+  width: 100%;
+  height: 40px;
+}
+
+
+/* Mega Menu */
+nav > div.menubar > ul.mega{
+  display: inline-block;
+  width: 14%;
+  height: inherit;
+  vertical-align: top;
+  text-align: right;
+  padding: 0 30px;
+  box-sizing: border-box;
+  line-height: 40px;
+  list-style: none;
+}
+nav > div.menubar > ul.mega > li{
+  cursor: pointer;
+  font-size: 15.5px;
+  color: #424750;
+  font-family: IranyekanB;
+}
+nav > div.menubar > ul.mega > li > span{
+  margin-left: 7px;
+  color: #424750;
+}
+nav > div.menubar > ul.mega > li > div.submenu{
+  z-index: 2;
+  width: calc(100vw - 40px);
+  right: calc(50% - calc(100vw - 40px)/2 );
+  height: 520px;
+  box-sizing: border-box;
+  background-color: var(--white);
+  position: absolute;
+  display: none;
+}
+nav > div.menubar > ul.mega > li:hover > div.submenu{
+  display: block;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul{
+  direction: ltr;
+  width: 15%;
+  height: inherit;
+  padding: 10px 10px 10px 0;
+  box-sizing: border-box;
+  list-style: none;
+  overflow: auto;
+  border-left:1px solid var(--white2);
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li{
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  line-height: 60px;
+  font-family: IranyekanB;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li:hover{
+  background-color: #F7F7F8;
+  color: var(--digi-red);
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > span{
+  margin-left: 4px;
+  margin-right: 1px;
+  font-size: 15px;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile > div.mobile , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital > div.digital , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool > div.tool , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt > div.shirt  , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super > div.super , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids > div.kids , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product > div.product , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty > div.beauty , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home > div.home  , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir > div.tahrir , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport > div.sport {
+  width: 85%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile > div.mobile > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital > div.digital > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool > div.tool > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt > div.shirt > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super > div.super > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids > div.kids > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product > div.product > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty > div.beauty > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home > div.home > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir > div.tahrir > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport > div.sport > div{
+  vertical-align: top;
+  width: 19.5%;
+  height: inherit;
+  display: none;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile > div.mobile > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital > div.digital > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool > div.tool > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt > div.shirt > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super > div.super > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids > div.kids > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product > div.product > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty > div.beauty > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home > div.home > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir > div.tahrir > div.top , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport > div.sport > div.top{
+  all: unset;
+  width: inherit;
+  vertical-align: middle;
+  height: 60px;
+  margin-top: 10px;
+  background-color: var(--white);
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile > div.mobile > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital > div.digital > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool > div.tool > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt > div.shirt > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super > div.super > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids > div.kids > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product > div.product > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty > div.beauty > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home > div.home > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir > div.tahrir > div.top > a , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport > div.sport > div.top > a{
+  text-decoration: none;
+  color: #424750;
+  font-weight: bold;
+  font-size: 12px;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile:hover > div.mobile > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital:hover > div.digital > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool:hover > div.tool > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt:hover > div.shirt > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super:hover > div.super > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids:hover > div.kids > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product:hover > div.product > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty:hover > div.beauty > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home:hover > div.home > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir:hover > div.tahrir > div , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport:hover > div.sport > div{
+  display: inline-block;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li.mobile:hover > div.mobile , nav > div.menubar > ul.mega > li > div.submenu > ul > li.digital:hover > div.digital , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tool:hover > div.tool , nav > div.menubar > ul.mega > li > div.submenu > ul > li.shirt:hover > div.shirt , nav > div.menubar > ul.mega > li > div.submenu > ul > li.super:hover > div.super , nav > div.menubar > ul.mega > li > div.submenu > ul > li.kids:hover > div.kids , nav > div.menubar > ul.mega > li > div.submenu > ul > li.product:hover > div.product , nav > div.menubar > ul.mega > li > div.submenu > ul > li.beauty:hover > div.beauty , nav > div.menubar > ul.mega > li > div.submenu > ul > li.home:hover > div.home , nav > div.menubar > ul.mega > li > div.submenu > ul > li.tahrir:hover > div.tahrir , nav > div.menubar > ul.mega > li > div.submenu > ul > li.sport:hover > div.sport{
+  display: block;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li{
+  color: #424750;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li{
+  list-style: none;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li:not(.bold){
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  margin-right: 13px;
+  color: var(--icon-grey);
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li.bold{
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 10px;
+  font-family: IranyekanB;
+  color: #252525;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li.bold > span{
+  color: var(--digi-red);
+  margin-left: 2px;
+}
+nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li:hover{
+  color: var(--digi-red);
+}
+
+/* Main menu */
+nav > div.menubar > ul.main {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  position: relative;
+  left: 35px;
+  list-style: none;
+  text-align: right;
+}
+nav > div.menubar > ul.main::before{
+  content: " ";
+  display: block;
+  background-color: var(--border-color);
+  width: 1px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  right: -7px;
+  transform: translateY(-50%);
+}
+nav > div.menubar > ul.main > li {
+  height: inherit;
+  width: auto;
+  display: inline-block;
+  padding: 0 12px;
+  transform: perspective(1px) translateZ(0);
+}
+nav > div.menubar > ul.main::after{
+  content: " ";
+  display: block;
+  background-color: var(--border-color);
+  width: 1px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: calc(60% - 20px);
+  transform: translateY(-50%);
+}
+nav > div.menubar > ul.main > li:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: var(--digi-red);
+    height: 2px;
+    transition-property: right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+nav > div.menubar > ul.main > li:hover:before, nav > div.menubar > ul.main > li:focus:before, nav > div.menubar > ul.main > li:active:before {
+    right: 0;
+  }
+nav > div.menubar > ul.main > li > a {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--placeholder-color);
+}
+nav > div.menubar > ul.main > li > a > span {
+  margin-left: 5px;
+  color: var(--icon-grey);
+}

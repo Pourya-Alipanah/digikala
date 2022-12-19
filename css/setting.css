@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: var(--digi-red);
+  color: #dad7cd;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url("../font/fa/iranyekanwebregular.e31c09af.woff2");
+}
+@font-face {
+  font-family: iranyekanB;
+  src: url("../font/fa/iranyekanwebbold.cfb6e26c.woff2");
+}
+@font-face {
+  font-family: iranyekanM;
+  src: url("../font/fa/iranyekanwebmedium.2d4f96e5.woff");
+}
+@font-face {
+  font-family: iranyekanXB;
+  src: url("../font/fa/iranyekanwebextrabold.9346e9a2.woff");
+}
+body {
+  font-family: iranyekan;
+}
