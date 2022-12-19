@@ -378,7 +378,7 @@ nav > div.menubar > ul.mega > li > div.submenu > ul > li > div > div > ul > li:h
 nav > div.menubar > ul.main {
   display: inline-block;
   vertical-align: top;
-  width: 80%;
+  width: 50%;
   height: inherit;
   margin: 0 auto;
   position: relative;
@@ -442,4 +442,48 @@ nav > div.menubar > ul.main > li > a {
 nav > div.menubar > ul.main > li > a > span {
   margin-left: 5px;
   color: var(--icon-grey);
+}
+
+/* Location Select */
+
+
+nav > div.menubar > div.location {
+  display: inline-block;
+  width: 133.267px;
+  height: 36px;
+  line-height: 36px;
+  padding-bottom: 4px;
+  position: relative;
+  right: 387px;
+  color: #424750;
+  cursor: pointer;
+}
+nav > div.menubar > div.location > label{
+  cursor: pointer;
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+}
+nav > div.menubar > div.location > label > span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-left: 1.6px;
+  top: calc(50% - 20px / 2);
+}
+nav > div.menubar > div.location > label > span > img {
+  width: inherit;
+  height: inherit;
+}
+nav > div.menubar > div.location > label >div.ersal{
+  display: inline-block;
+  font-size: 12px;
+}
+nav > div.menubar > div.location > label > div.loc{
+  display: inline-block;
+  font-size: 12px;
+}
+nav > div.menubar > div.location > input[id="openloc"]{
+  display: none;
 }
