@@ -77,6 +77,11 @@ nav > div.mainbar > div.useraccount{
   left: 15px;
   top: 18px;
 }
+nav > div.mainbar > div.useraccount > label{
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+}
 nav > div.mainbar > div.useraccount > label > div.useracc{
   padding: 8px;
   box-sizing: border-box;
