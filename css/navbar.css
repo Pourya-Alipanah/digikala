@@ -412,7 +412,7 @@ nav > div.menubar > ul.main::after{
   height: 18px;
   position: absolute;
   top: 50%;
-  left: calc(60% - 20px);
+  left: calc(30% + 25px);
   transform: translateY(-50%);
 }
 nav > div.menubar > ul.main > li:before{
