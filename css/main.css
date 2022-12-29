@@ -1,6 +1,7 @@
 /* Requirement */
 
 @import "setting.css";
+@import "var.css";
 @import "navbar.css";
 @import "slider.css";
 @import "services.css";
@@ -8,7 +9,8 @@
 @import "classicmid.css";
 @import "category.css";
 @import "support.css";
-@import "var.css";
+@import "brands.css";
+@import "plus.css";
 
 /* Requirement */
 
