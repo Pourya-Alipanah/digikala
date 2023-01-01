@@ -40,7 +40,7 @@ main > div.wrapper > div.category > div.catl > div > img {
 }
 /* ---------------------------------------Category2----------------------------------------- */
 main > div.wrapper > div.category2 {
-  width: 100%;
+  width: 1519px;
   margin: 0 auto 24px auto;
 }
 main > div.wrapper > div.category2 h3 {
@@ -51,7 +51,7 @@ main > div.wrapper > div.category2 h3 {
 }
 main > div.wrapper > div.category2 > div.cat,
 main > div.wrapper > div.category2 > div.catl {
-  width: 83.9%;
+  width: 1274.6px;
   height: 162.1px;
   margin: 0 auto;
   border-radius: 10px 10px 0 0;
@@ -66,7 +66,7 @@ main > div.wrapper > div.category2 > div.cat > div,
 main > div.wrapper > div.category2 > div.catl > div {
   display: inline-block;
   border-right: 1px solid var(--border-color);
-  width: 11.547330729166667vw;
+  width: 177.367px;
   height: 162.1px;
   padding: 16px 4px;
   text-align: center;
@@ -99,14 +99,14 @@ main > div.wrapper > div.category2 > div.cat > div > p {
   text-align: center;
 }
 /* ---------------------------------------Category3----------------------------------------- */
-main > div.wrapper > div.category3{
-  width: 83.9%;
+main > div.wrapper > div.category3 {
+  width: 1274.6px;
   height: 418.767px;
   border: 0.8px solid var(--border-color);
   border-radius: 10px;
   margin: 0 auto 24px auto;
 }
-main > div.wrapper > div.category3 > div.vercat{
+main > div.wrapper > div.category3 > div.vercat {
   display: inline-block;
   width: 24.7%;
   height: 418.767px;
@@ -114,41 +114,41 @@ main > div.wrapper > div.category3 > div.vercat{
   box-sizing: border-box;
   border-right: 0.8px solid var(--border-color);
 }
-main > div.wrapper > div.category3 > div.vercat:first-of-type{
+main > div.wrapper > div.category3 > div.vercat:first-of-type {
   border: unset;
 }
-main > div.wrapper > div.category3 > div.vercat > div.p1{
+main > div.wrapper > div.category3 > div.vercat > div.p1 {
   width: 284.85px;
   height: 34.4px;
   line-height: 34.4px;
 }
-main > div.wrapper > div.category3 > div.vercat > div.p1 >h4{
+main > div.wrapper > div.category3 > div.vercat > div.p1 > h4 {
   color: #232933;
   font-size: 16px;
 }
-main > div.wrapper > div.category3 > div.vercat > div.p2{
+main > div.wrapper > div.category3 > div.vercat > div.p2 {
   width: 284.85px;
   height: 23.8667px;
   line-height: 23.8667px;
 }
-main > div.wrapper > div.category3 > div.vercat > div.p2 > p{
-  color: #81858B;
+main > div.wrapper > div.category3 > div.vercat > div.p2 > p {
+  color: #81858b;
   font-size: 11px;
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics{
+main > div.wrapper > div.category3 > div.vercat > div.pics {
   width: 284.85px;
   height: 294.467px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div.top{
+main > div.wrapper > div.category3 > div.vercat > div.pics > div.top {
   display: inline-block;
   width: 100%;
   height: 50%;
   border-bottom: 0.8px solid var(--border-color);
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div > div.pic{
+main > div.wrapper > div.category3 > div.vercat > div.pics > div > div.pic {
   width: 125.933px;
   height: 130.733px;
   padding: 8px;
@@ -157,7 +157,13 @@ main > div.wrapper > div.category3 > div.vercat > div.pics > div > div.pic{
   transform: translateY(15px);
   position: relative;
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div > #first::after{
+main
+  > div.wrapper
+  > div.category3
+  > div.vercat
+  > div.pics
+  > div
+  > #first::after {
   content: " ";
   width: 0.8px;
   height: 294.467px;
@@ -167,28 +173,41 @@ main > div.wrapper > div.category3 > div.vercat > div.pics > div > #first::after
   top: -14px;
   background-color: var(--border-color);
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div.bottom{
+main > div.wrapper > div.category3 > div.vercat > div.pics > div.bottom {
   display: inline-block;
   width: 100%;
   height: 50%;
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div > div.pic > img{
+main
+  > div.wrapper
+  > div.category3
+  > div.vercat
+  > div.pics
+  > div
+  > div.pic
+  > img {
   width: 125.933px;
   height: 125.933px;
-  transform: translate(8px,-6px);
+  transform: translate(8px, -6px);
 }
-main > div.wrapper > div.category3 > div.vercat > div.pics > div.bottom > div.pic {
+main
+  > div.wrapper
+  > div.category3
+  > div.vercat
+  > div.pics
+  > div.bottom
+  > div.pic {
   transform: translateY(2px);
 }
-main > div.wrapper > div.category3 > div.vercat > div.more{
+main > div.wrapper > div.category3 > div.vercat > div.more {
   width: 100%;
   height: 26.0333px;
   margin: 10px auto 12px auto;
   text-align: center;
 }
-main > div.wrapper > div.category3 > div.vercat > div.more > a{
+main > div.wrapper > div.category3 > div.vercat > div.more > a {
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
-  color: #19BFD3;
+  color: #19bfd3;
 }

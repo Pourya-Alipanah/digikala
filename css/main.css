@@ -16,7 +16,7 @@
 
 /* ---------------------------------Start Header Banner---------------------------------- */
 header {
-  width: 100%;
+  width: 1519px;
   height: 54.25px;
   margin: 0 auto;
   position: sticky;
@@ -75,8 +75,8 @@ main > div.wrapper > div.bigtrai > img:hover {
 /* ------------------------------------Start Footer-------------------------------------- */
 
 footer > div.foot1 {
-  width: 96.30208333333333vw;
-  height: 10.284167794316645vh;
+  width: 1479.2px;
+  height: 76px;
   background-color: #3c4b6d;
   border-radius: 16px;
   margin: 0 auto;
@@ -84,13 +84,13 @@ footer > div.foot1 {
   padding: 20px;
 }
 footer > div.foot2 {
-  width: 100%;
-  height: 21.650879566982407vh;
+  width: 1519px;
+  height: 160px;
   border-radius: 16px;
   background-color: var(--white2);
-  margin-top: 10px;
   box-sizing: border-box;
-  padding-top: 10vh;
+  padding-top: 73.9px;
+  margin: 10px auto 0 auto;
 }
 
 /* -------------------------------------End Footer--------------------------------------- */

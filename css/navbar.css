@@ -9,7 +9,7 @@ nav{
 nav > div.mainbar {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 1519px;
   height: 68px;
   text-align: right;
   margin: 0px auto 0px auto;
@@ -242,8 +242,9 @@ nav > div.mainbar > div.useraccount > div.cart::before{
 /* Manu Bar  */
 
 nav > div.menubar {
-  width: 100%;
+  width: 1519px;
   height: 40px;
+  margin: 0 auto;
 }
 
 
@@ -271,8 +272,8 @@ nav > div.menubar > ul.mega > li > span{
 }
 nav > div.menubar > ul.mega > li > div.submenu{
   z-index: 2;
-  width: calc(100vw - 40px);
-  right: calc(50% - calc(100vw - 40px)/2 );
+  width: 1479px;
+  right: calc(50% - 1479px/2 );
   height: 520px;
   box-sizing: border-box;
   background-color: var(--white);
