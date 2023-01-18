@@ -1,10 +1,10 @@
 main > div.wrapper > div.plus{
-    width: 1274.6px;
+    width: 1304px;
     height: 356px;
     padding: 16px;
     background-color: #941B80;
     margin: 0 auto 0 auto;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 main > div.wrapper > div.plus > div{
     vertical-align: top;
@@ -14,7 +14,7 @@ main > div.wrapper > div.plus > div:first-of-type{
     height: 332px;
     display: inline-block;
     padding-top: 24px;
-    margin-left: 12px;
+    margin-left: 41px;
     background: url("../images/plus/plus-widget.png") 0 100% no-repeat;
     background-size: contain;
 }
@@ -118,7 +118,7 @@ main > div.wrapper > div.plus > div:nth-of-type(2) > div.pic > div > div.image >
 
 
 main > div.wrapper > div.bluee{
-    width: 1274.6px;
+    width: 1304px;
     height: 63.2px;
     z-index: 9;
     padding:12px 16px ;
@@ -166,7 +166,7 @@ main > div.wrapper > div.bluee > div > div:nth-of-type(2) , main > div.wrapper >
     cursor: pointer;
 }
 main > div.wrapper > div.bluee > div > div:nth-of-type(2){
-    margin-right: 12.7px;
+    margin-right: 42px;
     border-radius: 0 8px 8px 0;
 }
 main > div.wrapper > div.bluee > div > div:nth-of-type(4){
@@ -182,7 +182,7 @@ main > div.wrapper > div.bluee > div > div > div{
     text-align: center;
     vertical-align: top;
     position: relative;
-    z-index: 9;
+    z-index: 2;
 }
 main > div.wrapper > div.bluee > div > div > img {
     width: 168px;

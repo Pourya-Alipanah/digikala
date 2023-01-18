@@ -51,7 +51,7 @@ main > div.wrapper > div.category2 h3 {
 }
 main > div.wrapper > div.category2 > div.cat,
 main > div.wrapper > div.category2 > div.catl {
-  width: 1274.6px;
+  width: 1304px;
   height: 162.1px;
   margin: 0 auto;
   border-radius: 10px 10px 0 0;
@@ -100,7 +100,7 @@ main > div.wrapper > div.category2 > div.cat > div > p {
 }
 /* ---------------------------------------Category3----------------------------------------- */
 main > div.wrapper > div.category3 {
-  width: 1274.6px;
+  width: 1304px;
   height: 418.767px;
   border: 0.8px solid var(--border-color);
   border-radius: 10px;

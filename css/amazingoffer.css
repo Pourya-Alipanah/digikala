@@ -26,15 +26,7 @@ main > div.wrapper > div.midbanner img.midimg {
   width: 150px;
   height: 150px;
   border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
   transition: 300ms;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -ms-transition: 300ms;
-  -o-transition: 300ms;
 }
 .midbanner .swiper {
   margin-right: 15px !important;
@@ -66,17 +58,9 @@ main > div.wrapper > div.midbanner img.midimg {
 }
 #first {
   border-radius: 0 10px 10px 0;
-  -webkit-border-radius: 0 10px 10px 0;
-  -moz-border-radius: 0 10px 10px 0;
-  -ms-border-radius: 0 10px 10px 0;
-  -o-border-radius: 0 10px 10px 0;
 }
 #last {
   border-radius: 10px 0 0 10px;
-  -webkit-border-radius: 10px 0 0 10px;
-  -moz-border-radius: 10px 0 0 10px;
-  -ms-border-radius: 10px 0 0 10px;
-  -o-border-radius: 10px 0 0 10px;
 }
 .midbanner .swiper-slide > img {
   display: block;

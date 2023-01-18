@@ -11,12 +11,14 @@
 @import "support.css";
 @import "brands.css";
 @import "plus.css";
+@import "bests.css";
+@import "selected.css";
 
 /* Requirement */
 
 /* ---------------------------------Start Header Banner---------------------------------- */
 header {
-  width: 1519px;
+  width: 100%;
   height: 54.25px;
   margin: 0 auto;
   position: sticky;
@@ -42,15 +44,34 @@ main > div.wrapper > div.midtrai > img {
   width: 314px;
   height: 235.5px;
   border-radius: 16px;
-  padding: 0 5px;
+  margin: 0 5px;
   transition: 250ms;
 }
 main > div.wrapper > div.midtrai > img:hover {
-  box-shadow: 0px 8px 4px lightgray;
+  box-shadow: 0px 8px 4px var(--border-color);
   border-radius: 50px 16px 16px 16px / 50px 16px 16px 16px;
 }
 
 /* ------------------------------------End midtrailer------------------------------------ */
+
+/* ------------------------------------Start midmid-------------------------------------- */
+main > div.wrapper > div.midmid{
+  margin: 0 auto 25px auto;
+  width: 1304px;
+  height: 163px;
+  text-align: center;
+}
+main > div.wrapper > div.midmid > img{
+  width: inherit;
+  height: inherit;
+  border-radius: 16px;
+  transition: 250ms;
+}
+main > div.wrapper > div.midmid > img:hover {
+  box-shadow: 0px 8px 4px var(--border-color);
+  border-radius: 50px 16px 16px 16px / 50px 16px 16px 16px;
+}
+/* ------------------------------------End midmid---------------------------------------- */
 
 /* ------------------------------------Start Bigtrai------------------------------------- */
 
@@ -62,7 +83,7 @@ main > div.wrapper > div.bigtrai > img {
   width: 644px;
   height: 257.6px;
   border-radius: 16px;
-  padding: 0 5px;
+  margin: 0 5px;
   transition: 250ms;
 }
 main > div.wrapper > div.bigtrai > img:hover {
