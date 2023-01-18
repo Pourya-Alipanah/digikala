@@ -1,0 +1,53 @@
+main > div.wrapper > div.readmore{
+    width: 1304px;
+    height: 345.35px;
+    margin: 0 auto 25px auto;
+    box-sizing: border-box;
+}
+main > div.wrapper > div.readmore > div.p{
+    width: 1304px;
+    height: 66.4px;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #080A38;
+    font-family: IranyekanB;
+    position: relative;
+}
+main > div.wrapper > div.readmore > div.p > a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #19bfd3;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+}
+main > div.wrapper > div.readmore > div.content{
+    width: 1304px;
+    height: 278.95px;
+}
+main > div.wrapper > div.readmore > div.content > div{
+    width: 317px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-left: 5.2px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: 300ms;
+}
+main > div.wrapper > div.readmore > div.content > div:hover{
+    box-shadow: 0px 8px 4px var(--border-color);
+}
+main > div.wrapper > div.readmore > div.content > div > img{
+    width: 315.4px;
+    height: 196.483px;
+}
+main > div.wrapper > div.readmore > div.content > div > p{
+    color: #080A38;
+    font-size: 12px;
+    margin: 8px 0 0 12px;
+    padding: 0 16px;
+    line-height: 26.0003px;
+}
