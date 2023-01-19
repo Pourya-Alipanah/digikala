@@ -39,6 +39,7 @@ nav > div.mainbar > div.input-group input{
   color: #252525;
   transition: 500ms;
   font-size: 15px;
+  caret-color: var(--digi-red);
 }
 nav > div.mainbar > div.input-group input::placeholder{
   font-size: 12px;

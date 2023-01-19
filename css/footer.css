@@ -1,0 +1,391 @@
+footer{
+    width: 100%;
+    height: 1148.7px;
+    box-sizing: border-box;
+    margin: 48px auto 0 auto;
+    padding-top: 32px;
+    border-top: 0.8px solid #F1F2F4;
+}
+footer > div.footwrapper > div.logo{
+    width: 1479.2px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+footer > div.footwrapper > div.logo > img{
+    width: 113.333px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+}
+footer > div.footwrapper > div.logo > a {
+    display: inline-block;
+    width: 137.8px;
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    border: 0.8px solid var(--border-color);
+    color: #9E9FB2;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: IranyekanB;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    line-height: 24px;
+}
+footer > div.footwrapper > div.logo > a > span{
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 7px;
+}
+footer > div.footwrapper > div.about{
+    width: 1479.2px;
+    height: 26.0333px;
+    margin: 12px auto 0 auto;
+    font-size: 12px;
+    color: #3F4064;
+}
+footer > div.footwrapper > div.about > span:nth-of-type(1){
+    margin-left: 18px;
+}
+footer > div.footwrapper > div.about > span:nth-of-type(2){
+    margin-left: 18px;
+    color: #9E9FB1;
+}
+footer > div.footwrapper > div.benifits{
+    width: 1479.2px;
+    height: 103.867px;
+    margin: 32px auto 32px auto;
+}
+footer > div.footwrapper > div.benifits > div{
+    padding: 12px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+    color: #3F4064;
+    cursor: pointer;
+}
+footer > div.footwrapper > div.benifits > div:first-of-type{
+    width: 283.867px;
+    height: inherit;
+}
+footer > div.footwrapper > div.benifits > div:nth-of-type(2){
+    width: 282.35px;
+    height: inherit;
+}
+footer > div.footwrapper > div.benifits > div:nth-of-type(3){
+    width: 284.733px;
+    height: inherit;
+}
+footer > div.footwrapper > div.benifits > div:nth-of-type(4){
+    width: 316.817px;
+    height: inherit;
+}
+footer > div.footwrapper > div.benifits > div:nth-of-type(5){
+    width: 281.433px;
+    height: inherit;
+}
+footer > div.footwrapper > div.links{
+    width: 1479.2px;
+    height: 271px;
+    margin: 0 auto 32px auto;
+}
+footer > div.footwrapper > div.links > div{
+    /* display: inline-block; */
+    vertical-align: top;
+    height: inherit;
+    float: right;
+    clear: none;
+    line-height: 36.4px;
+    box-sizing: border-box;
+    font-family: IranyekanB;
+}
+footer > div.footwrapper > div.links > div:first-of-type{
+    width: 373.517px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(2){
+    width: 389px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(3){
+    width: 393.733px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4){
+    width: 322.95px;
+}
+footer > div.footwrapper > div.links > div > p , footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.p{
+    font-size: 16px;
+    color: #3F4064;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > p{
+    margin-bottom: 12px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div > img{
+    margin-left: 32px;
+}
+footer > div.footwrapper > div.links > div > a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Iranyekan;
+    color: #767790;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription{
+    width: inherit;
+    height: 94.4px;
+    margin-top: 32px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.p{
+    margin-bottom: 12px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.input-group {
+    width: inherit;
+    height: 48px;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.input-group > form > input{
+    all: unset;
+    display: inline-block;
+    vertical-align: top;
+    width: 261.183px;
+    height: 48px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-color: #F1F2F4;
+    font-family: IranyekanM;
+    color: var(--placeholder-color);
+    font-size: 15px;
+    border-radius: 8px;
+    caret-color: var(--digi-red);
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.input-group > form > button{
+    all: unset;
+    display: inline-block;
+    vertical-align: top;
+    width: 53.7667px;
+    height: 48px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    padding: 5px 13.5px;
+    color: var(--white);
+    font-size: 15px;
+    border: 0.8px solid var(--border-color);
+    background-color: #E0E0E6;
+    border-radius: 8px;
+    cursor: default;
+    user-select: none;
+}
+footer > div.footwrapper > div.links > div:nth-of-type(4) > div.subscription > div.input-group > form > input:valid ~ button{
+    background-color: var(--digi-red);
+    border: 0.8px solid var(--digi-red);
+    cursor: pointer;
+}
+footer > div.footwrapper > div.bluefoot{
+    width: 1479.2px;
+    height: 76px;
+    box-sizing: border-box;
+    background-color: #3c4b6d;
+    border-radius: 8px;
+    margin: 0 auto 28px auto;
+    padding: 8px 20px;
+}
+footer > div.footwrapper > div.bluefoot > div{
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footwrapper > div.bluefoot > div > div{
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footwrapper > div.bluefoot > div:first-of-type{
+    width: 308.067px;
+    height: 44.1px;
+    margin-top: 8px;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2){
+    width: 1116.13px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-right: 9px;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2) > div{
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2) > div:first-of-type{
+    width: 1050.13px;
+    height: inherit;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2) > div:first-of-type > img{
+    width: 142px;
+    height: 44px;
+    margin: 8px;
+    cursor: pointer;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2) > div:nth-of-type(2){
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 0.8px solid var(--border-color);
+    background-color: var(--white);
+    margin-right: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+footer > div.footwrapper > div.bluefoot > div:nth-of-type(2) > div:nth-of-type(2) > img{
+    width: inherit;
+    height: inherit;
+}
+footer > div.footwrapper > div.bluefoot > div > div > img{
+    width: 44px;
+    height: 44px;
+}
+footer > div.footwrapper > div.bluefoot > div > div{
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footwrapper > div.bluefoot > div > div:nth-of-type(2) {
+    margin-right: 14px;
+    width: 228.067px;
+    height: 44.1px;
+    color: var(--white);
+    font-size: 21px;
+    line-height: 44.1px;
+    font-family: IranyekanM;
+}
+footer > div.footwrapper > div.credits{
+    width: 1479.2px;
+    height: 215.033px;
+    box-sizing: border-box;
+    padding: 32px 0;
+    margin: 0 auto;
+    border-top: 0.8px solid #F1F2F4;
+}
+footer > div.footwrapper > div.credits > div{
+    display: inline-block;
+    vertical-align: top;
+}
+footer > div.footwrapper > div.credits > div:first-of-type{
+    width: 764.5px;
+    height: 150.233px;
+    margin-left: 40px;
+}
+footer > div.footwrapper > div.credits > div:first-of-type > h1{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+footer > div.footwrapper > div.credits > div:first-of-type > p{
+    font-size: 12px;
+    color: #767790;
+    line-height: 26.0333px;
+}
+footer > div.footwrapper > div.credits > div:first-of-type > span{
+    display: inline-block;
+    margin-top: 16px;
+    color: #767790;
+    font-size: 12px;
+    font-family: IranyekanB;
+    position: relative;
+    width: 92px;
+    height: 26.0333px;
+    line-height: 26.0333px;
+    cursor: pointer;
+}
+footer > div.footwrapper > div.credits > div:first-of-type > span > img{
+    position: absolute;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+}
+footer > div.footwrapper > div.credits > div:nth-of-type(2){
+    width: 667.7px;
+    height: 108.6px;
+    box-sizing: border-box;
+    text-align: left;
+}
+footer > div.footwrapper > div.credits > div:nth-of-type(2) > div{
+    display: inline-block;
+    vertical-align: top;
+    width: 108.6px;
+    height: 108.6px;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 0.8px solid var(--border-color);
+}
+footer > div.footwrapper > div.credits > div:nth-of-type(2) > div > img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+footer > div.footwrapper > div.copyright{
+    width: 1479.2px;
+    height: 88.6667px;
+    box-sizing: border-box;
+    padding: 32px 0;
+    font-size: 11px;
+    color: #767790;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 0.8px solid #F1F2F4;
+}
+footer > div.footwrapper > div.partners{
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #F1F2F4;
+}
+footer > div.footwrapper > div.partners > div.container{
+    margin: 0 auto;
+    width: 1519.2px;
+    height: 80px;
+}
+footer > div.footwrapper > div.partners > div.container2{
+    margin: 0 auto;
+    width: 1519.2px;
+    height: 80px;
+}
+footer > div.footwrapper > div.partners > div.container > div{
+    float: right;
+    clear: none;
+    width: 189.8px;
+    height: 80px;
+    /* line-height: 80px; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 32px 20px;
+    border-bottom: 0.8px solid #E0E0E6;
+    border-right: 0.8px solid #E0E0E6;
+}
+footer > div.footwrapper > div.partners > div.container > div:nth-of-type(1){
+    border-right: unset;
+}
+footer > div.footwrapper > div.partners > div.container > div > img{
+    height: 20px;
+}
+footer > div.footwrapper > div.partners > div.container2 > div{
+    float: right;
+    clear: none;
+    width: 168.8px;
+    /* line-height: 80px; */
+    height: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 32px 20px;
+    border-bottom: 0.8px solid #E0E0E6;
+    border-right: 0.8px solid #E0E0E6;
+}
+footer > div.footwrapper > div.partners > div.container2 > div:nth-of-type(1){
+    border-right: unset;
+}
+footer > div.footwrapper > div.partners > div.container2 > div > img{
+    height: 20px;
+    max-width: 128px;
+}

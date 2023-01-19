@@ -14,6 +14,7 @@
 @import "bests.css";
 @import "selected.css";
 @import "readmore.css";
+@import "footer.css";
 
 /* Requirement */
 
@@ -93,26 +94,3 @@ main > div.wrapper > div.bigtrai > img:hover {
 }
 
 /* ------------------------------------End Bigtrai--------------------------------------- */
-
-/* ------------------------------------Start Footer-------------------------------------- */
-
-footer > div.foot1 {
-  width: 1479.2px;
-  height: 76px;
-  background-color: #3c4b6d;
-  border-radius: 16px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 20px;
-}
-footer > div.foot2 {
-  width: 1519px;
-  height: 160px;
-  border-radius: 16px;
-  background-color: var(--white2);
-  box-sizing: border-box;
-  padding-top: 73.9px;
-  margin: 10px auto 0 auto;
-}
-
-/* -------------------------------------End Footer--------------------------------------- */
