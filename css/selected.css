@@ -85,6 +85,9 @@ main > div.wrapper > div.selected > div::before {
     border-radius: 999px;
     z-index: 2;
 }
+main > div.wrapper > div.selected > div.p::before{
+    all: unset;
+}
 main > div.wrapper > div.selected > div > div.pls{
     width: 27.2px;
     height: 27.2px;
